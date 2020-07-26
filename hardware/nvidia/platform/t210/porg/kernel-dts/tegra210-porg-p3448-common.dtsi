@@ -28,8 +28,8 @@
 #include "porg-platforms/tegra210-pinmux-drive-sdmmc-common.dtsi"
 #include "porg-platforms/tegra210-porg-pwm-fan.dtsi"
 #include "porg-platforms/tegra210-porg-camera.dtsi"
-#include "porg-platforms/tegra210-porg-camera-rbpcv2-imx219.dtsi"
-#include "porg-platforms/tegra210-porg-camera-rbpcv2-dual-imx219.dtsi"
+//#include "porg-platforms/tegra210-porg-camera-rbpcv2-imx219.dtsi"
+//#include "porg-platforms/tegra210-porg-camera-rbpcv2-dual-imx219.dtsi"
 #include <t210-common-platforms/tegra210-ers-hdmi-e2190-1100-a00.dtsi>
 #include <t210-common-platforms/tegra210-dp.dtsi>
 #include "porg-platforms/tegra210-porg-thermal.dtsi"
@@ -40,7 +40,7 @@
 #include "porg-platforms/tegra210-porg-cpufreq.dtsi"
 #include "porg-platforms/tegra210-porg-powermon-p3448-0000-a00.dtsi"
 #include "porg-plugin-manager/tegra210-porg-eeprom-manager.dtsi"
-#include "porg-plugin-manager/tegra210-porg-plugin-manager.dtsi"
+//#include "porg-plugin-manager/tegra210-porg-plugin-manager.dtsi"
 #include <tegra210-soc/mods-simple-bus.dtsi>
 #include "porg-platforms/tegra210-porg-extcon-p3448-0000-a00.dtsi"
 #include "porg-platforms/tegra210-porg-p3448-emc-a00.dtsi"

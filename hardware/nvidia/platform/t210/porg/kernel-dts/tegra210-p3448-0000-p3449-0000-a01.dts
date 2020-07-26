@@ -21,6 +21,7 @@
 #include "tegra210-porg-p3448-common.dtsi"
 #include "porg-platforms/tegra210-porg-pinmux-p3448-0000-a01.dtsi"
 #include "porg-platforms/tegra210-porg-gpio-p3448-0000-a01.dtsi"
+#include "tegra210-tc358743.dtsi"
 
 / {
 	model = "NVIDIA Jetson Nano Developer Kit";
