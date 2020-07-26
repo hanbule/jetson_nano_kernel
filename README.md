@@ -28,6 +28,7 @@ https://gist.github.com/nyacg/becd94a029355825a05f633f38a25b46
 
 v4l2-ctl --set-edid=file=1080edid.txt --fix-edid-checksum
 v4l2-ctl --query-dv-timings
+gst-launch-1.0 nvv4l2camerasrc device=/dev/video0 ! 'video/x-raw(memory:NVMM), width=(int)1280, height=(int)720, interlace-mode=progressive, framerate=(fraction)30/1' ! nvvidconv ! 'video/x-raw(memory:NVMM), format=(string)NV12' ! nv3dsink -e
 
 
 insert HDMI cable to MIPI  device !
